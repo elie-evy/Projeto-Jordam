@@ -1,0 +1,87 @@
+/*---------------resetando css----------------*/
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    }
+
+/*---------------textos----------------*/
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centralizar-texto {
+    text-align: center;
+}
+
+.texto-branco {
+    color: white;
+}
+
+
+/*---------------header----------------*/
+
+header {
+    background: url(../imagens/capa.jpg) no-repeat;
+    height: 500px;
+}
+
+#topo_propaganda {
+    color: white;
+    padding: 5px 0px;
+    background-color: rgb(34, 34, 34);
+}
+
+#topo {
+    background-color: aliceblue;
+    padding: 5px 0;
+}
+
+#container-texto-top {
+    height: 80%;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#destaques {
+    margin: 50px 0;
+}
+
+#destaques h2 {
+    margin: 20px 0;
+}
+/*---------------nav----------------*/
+
+nav {
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul {
+    width: 1288px;
+}
+
+ul li {
+    background-color: rgb(229, 229, 229);
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+ul li img {
+    width: 300px;
+}
+/*---------------footer----------------*/
+footer {
+    padding: 10px 0;
+    background-color: rgb(34, 34, 34);
+}
